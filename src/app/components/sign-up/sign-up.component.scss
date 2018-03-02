@@ -1,0 +1,146 @@
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input#inputEmail {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+.form-signin input#inputPassword {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+.form-signin input#inputConfPassword {
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+.form-signin button {
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: 0px;
+}
+
+div.error-msg-box {
+  text-align: center; 
+  position: relative; 
+  top: 35px; 
+  z-index: 0;  
+  -webkit-transition: top 0.4s ease-in-out;
+  -moz-transition: top 0.4s ease-in-out;
+  -o-transition: top 0.4s ease-in-out;
+  transition: top 0.4s ease-in-out;  
+}
+
+div.error-msg-box.show {
+  position: relative; 
+  top: -15px;
+}
+
+div.form-label-group.eml label {
+  position: relative;
+  top: -34px;
+  background-color: #fff;
+  left: 13px;
+  font-size: 1rem;
+  z-index: 1000;
+  opacity: 0.6;
+  -webkit-transition: top 0.4s, left 0.4s, font-size 0.4s;
+  -moz-transition: top 0.4s, left 0.4s, font-size 0.4s;
+  -o-transition: top  0.4s, left 0.4s, font-size 0.4s;
+  transition: top  0.4s, left 0.4s, font-size 0.4s;
+}
+
+div.form-label-group.psw label {
+  position: relative;
+  top: -34px;
+  background-color: #fff;
+  left: 13px;
+  font-size: 1rem;
+  z-index: 1000;
+  opacity: 0.6;
+  -webkit-transition: top 0.4s, left 0.4s, font-size 0.4s;
+  -moz-transition: top 0.4s, left 0.4s, font-size 0.4s;
+  -o-transition: top  0.4s, left 0.4s, font-size 0.4s;
+  transition: top  0.4s, left 0.4s, font-size 0.4s;
+}
+
+div.form-label-group.confpsw label {
+  position: relative;
+  top: -45px;
+  background-color: #fff;
+  left: 13px;
+  font-size: 1rem;
+  z-index: 1000;
+  opacity: 0.6;
+  -webkit-transition: top 0.4s, left 0.4s, font-size 0.4s;
+  -moz-transition: top 0.4s, left 0.4s, font-size 0.4s;
+  -o-transition: top  0.4s, left 0.4s, font-size 0.4s;
+  transition: top  0.4s, left 0.4s, font-size 0.4s;
+}
+
+div.form-label-group.eml input:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
+div.form-label-group.psw input:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
+div.form-label-group.confpsw input:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
+div.form-label-group.eml input:focus + label, 
+div.form-label-group.eml input.value + label {
+  position: relative;
+  top: -57px;
+  background-color: #fff;
+  left: 10px;
+  font-size: 75%;
+  opacity: 1;
+}
+
+div.form-label-group.psw input:focus + label, 
+div.form-label-group.psw input.value + label {
+  position: relative;
+  top: -57px;
+  background-color: #fff;
+  left: 10px;
+  font-size: 75%;
+  opacity: 1;
+}
+
+div.form-label-group.confpsw input:focus + label, 
+div.form-label-group.confpsw input.value + label {
+  position: relative;
+  top: -67px;
+  background-color: #fff;
+  left: 10px;
+  font-size: 75%;
+  opacity: 1;
+}

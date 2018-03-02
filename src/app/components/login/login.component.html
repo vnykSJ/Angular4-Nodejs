@@ -1,3 +1,37 @@
-<p>
-  login works!!!
-</p>
+<div class="container">
+
+    <div style="width: 50%; background-color: #eeeeee; margin: 0% auto;">
+    
+        <form class="form-signin" (ngSubmit)="login(loginForm.value)" [formGroup]="loginForm">
+        
+            <div class="img-box" style="padding: 10% 10% 15% 10%;">
+                <img class="rounded mx-auto d-block" src="assets/images/key1.png" alt="Contact Profile Image" style="width: 60%;">
+            </div>
+
+            <div class="error-msg-box" style="" [ngClass]="{'show': showErrorMsg}">
+                <small style="color: red;"> Username Or Password is invalid!!! </small>
+            </div>
+            
+            <div class="form-label-group eml">
+                <input type="email" id="inputEmail" class="form-control" formControlName="emailId" [ngClass]="{'value': loginForm['controls']['emailId'].value.length>0}" >
+                <label for="inputEmail">Email address</label>
+            </div>
+
+            <div class="form-label-group psw">
+                <input type="password" id="inputPassword" class="form-control" formControlName="password" [ngClass]="{'value': loginForm['controls']['password'].value.length>0}" >
+                <label for="inputPassword">Password</label>
+            </div>
+            
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            
+            <div class="links" style="text-align: center; margin-top: 15%;">
+                <a [routerLink]="['/signup']">Create an account</a>
+                <span>|</span>
+                <a [routerLink]="['/signup']">Forgot Password?</a>
+            </div>
+
+        </form>
+    
+    </div>
+
+</div>
